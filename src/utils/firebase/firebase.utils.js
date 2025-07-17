@@ -21,7 +21,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCxBj9CAoEUWa9SAqVkQmHT7BIspdwJEac",
+  apiKey: import.meta.env.VITE_API_KEY ?? "",
   authDomain: "crwn-store-db-c21a2.firebaseapp.com",
   projectId: "crwn-store-db-c21a2",
   storageBucket: "crwn-store-db-c21a2.firebasestorage.app",
